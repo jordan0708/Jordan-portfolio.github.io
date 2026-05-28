@@ -2622,48 +2622,45 @@ html {
     margin: 0 auto;
 }
 
-/* ===== MOBILE HERO SIDE-BY-SIDE FIX ===== */
+/* ===== MOBILE HORIZONTAL HERO SCROLL ===== */
 
 @media screen and (max-width: 736px) {
 
+    #top .container {
+        overflow-x: auto;
+    }
+
     #top .row {
         display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 1rem;
         flex-wrap: nowrap;
+        align-items: center;
+        gap: 2rem;
+        min-width: 700px;
         padding: 1rem;
     }
 
     #top .col-4 {
-        width: 40% !important;
+        flex: 0 0 250px;
     }
 
     #top .col-8 {
-        width: 60% !important;
+        flex: 0 0 400px;
     }
 
     .profile-box img {
-        width: 140px;
-        height: 140px;
+        width: 220px;
+        height: 220px;
         object-fit: cover;
-        border-radius: 16px !important;
+        border-radius: 20px !important;
     }
 
     #top h1 {
-        font-size: 1.5rem;
-        line-height: 1.2;
-        margin-bottom: 0.5rem;
+        font-size: 2rem;
+        line-height: 1.3;
     }
 
     #top p {
-        font-size: 0.9rem;
-        line-height: 1.5;
-    }
-
-    #top .button {
-        font-size: 0.8rem;
-        padding: 0.7rem 1rem;
+        font-size: 1rem;
+        line-height: 1.6;
     }
 }
