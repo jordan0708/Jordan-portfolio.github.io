@@ -2672,3 +2672,23 @@ html {
         text-align: center;
     }
 }
+
+/* Small Portfolio Link */
+
+.more-link {
+    display: inline-block;
+    margin-top: 0.8rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #3b82f6;
+    transition: 0.3s;
+}
+
+.more-link:hover {
+    color: #1d4ed8;
+}
+
+
+
+
